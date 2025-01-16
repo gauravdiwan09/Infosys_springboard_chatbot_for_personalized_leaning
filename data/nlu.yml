@@ -1,0 +1,49 @@
+version: "3.0"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hi
+      - hello
+      - hey
+      - good morning
+      - good evening
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you later
+      - take care
+
+  - intent: provide_name
+    examples: |
+      - My name is [Rahul](user_name)
+      - I am [Aisha](user_name)
+      - It's [John](user_name)
+      - [Sara](user_name) here
+
+  - intent: ask_course
+    examples: |
+      - What courses do you offer?
+      - Which subjects can you help with?
+      - Tell me the available courses
+
+  - intent: ask_schedule
+    examples: |
+      - Can you help me plan my study schedule?
+      - I need help organizing my learning
+      - How do I make a learning schedule?
+
+  - intent: ask_topic
+    examples: |
+      - Tell me more about [loops](topic)
+      - Explain [functions](topic) in detail
+      - I want to learn about [inheritance](topic)
+
+  - intent: weather
+    examples: |
+      - Tell me the weather
+      - how's the weather today
+      - weather
+      - get information about weather

@@ -1,0 +1,19 @@
+version: "3.0"
+
+rules:
+  - rule: greet and ask name
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: acknowledge user name
+    steps:
+      - intent: provide_name
+      - slot_was_set:
+          - user_name: "user_input"
+      - action: utter_name_acknowledge
+
+  - rule: respond to goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye

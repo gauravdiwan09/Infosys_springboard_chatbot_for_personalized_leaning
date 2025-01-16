@@ -1,0 +1,45 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - provide_name
+  - ask_course
+  - ask_schedule
+  - ask_topic
+  - weather
+
+entities:
+  - user_name
+
+slots:
+  user_name:
+    type: text
+    mappings:
+      - type: from_text
+
+responses:
+  utter_greet:
+    - text: "Hi there! Welcome to the learning bot. What's your name?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day, {user_name}!"
+
+  utter_name_acknowledge:
+    - text: "Nice to meet you, {user_name}! How can I assist you today?"
+
+  utter_ask_course:
+    - text: "I can help you with Python, JavaScript, or Data Science. Which one are you interested in?"
+
+  utter_ask_schedule:
+    - text: "I can assist you in creating a learning schedule. Would you like that?"
+
+  utter_ask_topic:
+    - text: "Tell me which topic you'd like to learn more about, and I'll provide resources."
+
+  utter_weather:
+    - text: "weather is so nice today! keep working hard"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
