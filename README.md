@@ -27,6 +27,7 @@ This combination of personalized resources and motivation creates an engaging le
 Here’s a preview of the user interface:
 
 
+
 - **User Friendly Interface**
 
 ![User Friendly Interface](assets/screenshot1.png)
