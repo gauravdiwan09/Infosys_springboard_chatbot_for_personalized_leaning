@@ -1,14 +1,25 @@
 version: "3.0"
 
 stories:
-  - story: greet and provide name
+#  - story: greet and provide name
+#    steps:
+#      - intent: greet
+#      - action: utter_greet
+#      - intent: provide_name
+#      - slot_was_set:
+#          - user_name: "user_input"
+#      - action: utter_name_acknowledge
+
+  - story: greet and provide number
     steps:
       - intent: greet
-      - action: utter_greet
-      - intent: provide_name
+      - action: utter_ask_phone
+      - intent: phone
+        entities:
+        - number: 9875674563
       - slot_was_set:
-          - user_name: "user_input"
-      - action: utter_name_acknowledge
+          - number: 9873455673
+      - action: utter_phone_acknowledge
 
   - story: ask about courses
     steps:

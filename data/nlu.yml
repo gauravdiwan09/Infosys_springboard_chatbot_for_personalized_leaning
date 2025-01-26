@@ -47,3 +47,10 @@ nlu:
       - how's the weather today
       - weather
       - get information about weather
+
+  - intent: phone
+    examples: |
+      - [7558779876](number)
+      - my phone number is [9897967687](number)
+      - here is my number [1234567891](number)
+      - my number is [9876541231](number)
