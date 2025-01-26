@@ -36,8 +36,8 @@ The following tools and libraries are required to run the project:
 Start by cloning the project repository from GitHub:
 
 ```bash
-git clone https://github.com/your-username/personalized-learning-chatbot.git
-cd personalized-learning-chatbot
+git clone https://github.com/gauravdiwan09/Infosys_springboard_chatbot_for_personalized_leaning.git
+cd /Infosys_springboard_chatbot_for_personalized_leaning
 ```
 
 ### Step 2: Install Dependencies
