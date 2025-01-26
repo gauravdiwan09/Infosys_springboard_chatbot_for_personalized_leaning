@@ -22,6 +22,14 @@ In addition to learning resources and explanations, the chatbot also offers:
 
 This combination of personalized resources and motivation creates an engaging learning experience.
 
+## UI Screenshots
+
+Here’s a preview of the user interface:
+
+![User Friendly Interface](assets/screenshot1.png)
+![Dynamic Explanation](assets/screenshot2.png)
+![Youtube Videos Recommendation](assets/screenshot1.png)
+
 ## Requirements
 
 The following tools and libraries are required to run the project:
