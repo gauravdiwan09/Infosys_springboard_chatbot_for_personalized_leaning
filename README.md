@@ -38,7 +38,7 @@ Here’s a preview of the user interface:
 ![Dynamic Explanation](assets/screenshot2.png)
 
 
-- **Youtube Videos Recommendation**
+- **Smart Recommendation**
 
 ![Youtube Videos Recommendation](assets/screenshot3.png)
 
