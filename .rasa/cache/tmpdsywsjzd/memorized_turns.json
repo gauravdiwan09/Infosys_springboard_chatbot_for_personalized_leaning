@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fkl+QmVxbGwsAW64dKw==": "utter_ask_topic",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fkl+QmVxLwJzSkpLUoniEcnwmxQIA5ew5iQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhPDWxJCO1qLY2FgAiNBxe": "utter_weather",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhPDWxJCO1qJaAKaUlJalF8TDFuE2JBQCP8Dci": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_ask_phone",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfGJxdnxBRn5eak4TYkFABzSNjg=": "action_listen",
+    "eJydjkEKwjAQRa8yByii21wlhBBl0MF2UjITNyF3d0oqghuhu//h8f73rU/Q1oKvmG5KmR20ESKnBR3sZSZRZGOrYDGG2Ko6uBdE7X8cVRVLTPKM6yMzHrT8PpE5qxjEdbluNn85ncPXbWJSQiP8IMIEn71xo4c38WdfWA==": "utter_phone_acknowledge",
+    "eJytjkEKwjAURK+SAxTRba4SQog61ND0pyQ/ugi9u1+jCG4UcTcDjzdj2jqotmScnT9wSKRV68GRn6HVo8RQGCRsLcjCBJLKWo0Z4PWDozIjO18mt5wS4UfL+5MSExeBqM77m83sNlv7cos4cIAQphN2UM+9fuOr13dUiInSJeI44i/L9gpaSIyc": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fnF9aVJxaWxsLAHkmHZ0=": "utter_ask_course",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fnF9aVJxaS8Cg0pKS1KJ4JPV4zYoFAJtpOt8=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fnJyRmlKak1pbGwsAtLQeWQ==": "utter_ask_schedule",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fnJyRmlKak1pLwKjSkpLUongUHQTMiwUA/wI9Ew==": "action_listen"
+  }
+}

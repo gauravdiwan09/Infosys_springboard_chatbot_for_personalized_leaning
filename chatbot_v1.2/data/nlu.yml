@@ -1,0 +1,143 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - hey there
+    - hello bot
+    - hi chatbot
+    - hey AI
+
+- intent: goodbye
+  examples: |
+    - goodbye
+    - bye
+    - see you later
+    - take care
+    - see you
+    - talk to you later
+    - end conversation
+    - stop chat
+    - exit chat
+    - stop
+
+- intent: topic
+  examples: |
+    - tell me about [machine learning](topic)
+    - I want to know about [artificial intelligence](topic)
+    - Explain [DevOps](topic)
+    - Give me information about [MLOps](topic)
+    - Can you explain [web development](topic)?
+    - I need details on [app development](topic)
+    - What can you tell me about [data structures and algorithms](topic)?
+    - Provide an overview of [blockchain](topic)
+    - I'd like to learn about [operating systems](topic)
+    - Share some insights on [natural language processing](topic)
+    - teach me about [Python programming](topic)
+    - what is [React Native](topic)?
+    - describe [cloud computing](topic)
+    - explain how [neural networks](topic) work
+    - tell me the basics of [quantum computing](topic)
+    - what are [semiconductors](topic)?
+    - help me understand [blockchain technology](topic)
+    - what's [machine learning](topic) all about?
+    - can you explain [renewable energy](topic)?
+    - I want to learn [data science](topic)
+    - what is [computer vision](topic)?
+    - tell me about [cybersecurity](topic)
+    - explain what is [big data](topic)
+    - what are [microservices](topic)?
+    - tell me about [cloud infrastructure](topic)
+    - what is [IoT](topic)?
+    - explain [edge computing](topic)
+    - what are [distributed systems](topic)?
+    - tell me about [containerization](topic)
+    - what is [virtualization](topic)?
+    - explain how [REST APIs](topic) work
+    - what are [serverless architectures](topic)?
+    - tell me about [continuous integration](topic)
+    - what is [continuous deployment](topic)?
+    - explain [test automation](topic)
+    - what are [design patterns](topic)?
+    - tell me about [software architecture](topic)
+    - what is [functional programming](topic)?
+    - explain [object-oriented programming](topic)
+    - what are [data pipelines](topic)?
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - am I speaking to a bot?
+    - what are you?
+    - are you human?
+    - are you a real person?
+    - is this a bot?
+
+- intent: ask_for_help
+  examples: |
+    - help
+    - I need help
+    - can you help me?
+    - I need assistance
+    - could you assist me?
+    - I need some help
+    - can you assist me?
+    - I need your help
+    - please help me understand
+    - can you explain something?
+    - I want to learn about something
+    - could you teach me?
+    - I'd like to understand
+    - help me learn
+    - I want to know more
+    - can you guide me?
+    - I need guidance
+    - please assist me
+    - would you help me?
+    - I'm looking for information
+    - can you provide information?
+    - I want to study
+    - help me understand
+    - I'm trying to learn
+    - could you explain?
+    - please guide me
+    - I need some clarification
+    - can you clarify something?
+    - I'm curious about something
+    - help me explore a topic
+
+- intent: affirm
+  examples: |
+    - yes
+    - yes please
+    - sure
+    - yeah
+    - show me videos
+    - i would like to see videos
+    - yes show me videos
+    - yes i want videos
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - don't show videos
+    - no videos
+    - not interested
+    - skip it
+    - not now
+    - maybe later
+
+- intent: who_created_you
+  examples: |
+    - who made you?
+    - who created you?
+    - who is your creator?
+    - who developed you?
+    - who is your developer?
+    - who is your designer?

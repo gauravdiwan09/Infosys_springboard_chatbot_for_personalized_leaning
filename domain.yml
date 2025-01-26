@@ -8,15 +8,24 @@ intents:
   - ask_schedule
   - ask_topic
   - weather
+  - phone
 
 entities:
   - user_name
+  - number
 
 slots:
   user_name:
     type: text
     mappings:
       - type: from_text
+
+  number:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: number
 
 responses:
   utter_greet:
@@ -39,6 +48,12 @@ responses:
 
   utter_weather:
     - text: "weather is so nice today! keep working hard"
+
+  utter_ask_phone:
+    - text: "Hi, Could you please share me your phone number ?"
+
+  utter_phone_acknowledge:
+    - text: "your number is {number} as you said earlier! "
 
 session_config:
   session_expiration_time: 60

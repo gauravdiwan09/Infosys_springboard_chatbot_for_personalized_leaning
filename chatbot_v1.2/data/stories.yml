@@ -1,0 +1,62 @@
+version: "3.1"
+
+stories:
+- story: Greet and ask for help
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_for_help
+  - action: utter_ask_topic
+
+- story: content_generation
+  steps:
+  - intent: ask_for_help
+  - action: utter_ask_topic
+  - intent: topic
+    entities:
+    - topic: "DevOps"
+  - slot_was_set:
+    - topic: "DevOps"
+  - action: action_generate_content
+  - action: utter_ask_video
+
+- story: video_flow_yes
+  steps:
+  - intent: affirm
+  - action: action_fetch_youtube_videos
+  - action: utter_more_info
+  
+
+- story: video_flow_no
+  steps:
+  - intent: deny
+  - action: utter_more_info
+
+- story: Direct topic request
+  steps:
+  - intent: topic
+    entities:
+    - topic: "artificial intelligence"
+  - slot_was_set:
+    - topic: "artificial intelligence"
+  - action: action_generate_content
+  - action: utter_ask_video
+  - intent: affirm
+  - action: action_fetch_youtube_videos
+  - action: utter_more_info
+
+- story: Handle bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Default fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default
+
